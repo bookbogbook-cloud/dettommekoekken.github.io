@@ -236,8 +236,8 @@
   }
 
   // 🔍 Filtrér kun opskrifter hvor man har mindst en af ingredienserne
-  const possibleRecipes = recipes.filter(recipe =>
-    recipe.ingredients.every(i => userIngredients.includes(i))
+  const possibleRecipes  recipes.filter(recipe 
+    recipe.ingredients.every(i  userIngredients.includes(i))
   );
 
   // 📭 Hvis ingen opskrifter matcher
