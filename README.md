@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> Dit lokale tomme køkken! </title> (Det her er en prototype, ikke den rigtige app)
 <style>
-  body { font-family: Cursive, sans-serif; background:#a9c7ee; margin:0; padding:20px; }
+  body { font-family: Cursive, sans-serif; background:#a9c7ee; margin:0; padding:20; }
   h1 { text-align:center; color:#29353C; }
-  .container { max-width:700px; margin:0 auto; background:#FFE8E1; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
-  label { font-weight:bold; display:block; margin-bottom:8px; }
-  input, button, select { padding:8px; font-size:14px; border-radius:6px; border:1px solid #ccc; margin-bottom:12px; width:100%; }
+  .container { max-width:700; margin:0 auto; background:#FFE8E1; padding:20; border-radius:12; box-shadow:0 5 15 (0,0,0,0.1);}
+  label { font-weight:bold; display:block; margin-bottom:8; }
+  input, button, select { padding:8; font-size:14; border-radius:6; border:1 solid #ccc; margin-bottom:12; width:100; }
   button { background:#768A96; color:white; border:none; cursor:pointer; }
   button:hover { background:#daf0ff; }
   ul { list-style:none; padding:0; }
-  li { padding:10px; border-bottom:1px solid #eee; }
+  li { padding:10; border-bottom:1 solid #eee; }
   .missing { color:#F3E4F5; }
   .ready { color:#A7ABDE0; }
 </style>
@@ -30,7 +30,7 @@
 
 <script>
 // Sample recipe database
-const recipes = [
+ recipes = [
   { navn:"Tomatpasta", ingredienser:["tomat","pasta","olivenolie","hvidløg","salt"] },
   { navn:"Ostomelet", ingredienser:["æg","mælk","ost","salt","peber"] },
   { navn:"Grillet ostesandwich", ingredienser:["brød","ost","smør"] },
