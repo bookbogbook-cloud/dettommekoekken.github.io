@@ -248,9 +248,9 @@
 
   // 🍳 Vis alle opskrifter du kan lave
   possibleRecipes.forEach(recipe => {
-    const li = document.createElement('li');
-    li.className = 'ready';
-    li.innerHTML = `<strong>${recipe.name}</strong><br>
+    const li  document.createElement('li');
+    li.className  'ready';
+    li.innerHTML  `<strong>${recipe.name}</strong><br>
       <em>Ingredienser:</em> ${recipe.ingredients.join(', ')}<br>
       <em>Er denne til din smag?:) </em>`;
     recipeList.appendChild(li);
