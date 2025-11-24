@@ -7,7 +7,7 @@
 <style>
   body { font-family: Cursive, sans-serif; background:#a9c7ee; margin:0; padding:20; }
   h1 { text-align:center; color:#29353C; }
-  .container { max-width:700; margin:0 auto; background:#FFE8E1; padding:20; border-radius:12; box-shadow:0 5 15 (0,0,0,0.1);}
+  .container { max-width:700; margin:0 auto; background:#F0E8E1; padding:20; border-radius:12; box-shadow:0 5 15 (0,0,0,0.1);}
   label { font-weight:bold; display:block; margin-bottom:8; }
   input, button, select { padding:8; font-size:14; border-radius:6; border:1 solid #ccc; margin-bottom:12; width:100; }
   button { background:#; color:pink; border:none; cursor:pointer; }
