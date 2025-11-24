@@ -1,5 +1,4 @@
 <html lang="en">
-<head> Skabt af Srishti Karoor og Kate Yang til konkurrencen Unge Forskere 2026
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> Det tomme køkken </title> Prototype skabt af Srishti Karoor og Kate Yang til konkurrencen Unge Forskere 2026
