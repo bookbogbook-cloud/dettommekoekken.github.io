@@ -11,7 +11,7 @@
   label { font-weight:bold; display:block; margin-bottom:8; }
   input, button, select { padding:8; font-size:14; border-radius:6; border:1 solid #ccc; margin-bottom:12; width:100; }
   button { background:#; color:white; border:none; cursor:pointer; }
-  button:hover { background:#daf0ff; }
+  button:hover { background:#FF8DA1; }
   ul { list-style:none; padding:0; }
   li { padding:10; border-bottom:1 solid #eee; }
   .missing { color:#F3E4F5; }
