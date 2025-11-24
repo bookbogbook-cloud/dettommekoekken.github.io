@@ -21,8 +21,8 @@
   <h1> Det tomme køkken </h1>
   <label for="ingredients"> Indsæt ingredienser du har (comma separated):</label>
   <input type="text" id="ingredients" placeholder="fx. æg, mælk, tomater, ost">
-  <button id="findBtn">Find Opskrifter</button>
-  <h2>Matchende opskrifter:</h2>
+  <button id="findBtn">Find Recipes</button>
+  <h2>Matching Recipes:</h2>
   <ul id="recipeList"></ul>
 </div>
 
