@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Det tomme køkken</title>
 <!-- Det her er en prototype, ikke den rigtige app -->
+  </style>
   body { font-family: Cursive, sans-serif; background:#a9c7ee; margin:0; padding:20px; }
   h1 { text-align:center; color:#29353C; }
   .container { max-width:700px; margin:0 auto; background:#FFE8E1; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
@@ -16,7 +17,6 @@
   li { padding:10px; border-bottom:1px solid #eee; }
   .missing { color:#F3E4F5; }
   .ready { color:#A7ABDE; }
-</style>
 </head>
 <body>
 <div class="container">
