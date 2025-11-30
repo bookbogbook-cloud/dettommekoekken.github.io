@@ -8,11 +8,11 @@
   <style>
     body { font-family: Cursive, sans-serif; background:#a9c7ee; margin:0; padding:20px; }
     h1 { text-align:center; color:#29353C; }
-    .container { max-width:700px; margin:0 auto; background:#FFE8E1; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+    .container { max-width:700px; margin:0 auto; background:#FFE8E1; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1); }
     label { font-weight:bold; display:block; margin-bottom:8px; }
-    input, button, select { padding:8px; font-size:14px; border-radius:6px; border:1px solid #ccc; margin-bottom:12px; width:100%; }
-    button { background:#768A96; color:white; border:none; cursor:pointer; }
-    button:hover { background:#E6E6E6; }
+    input, button, select { padding:8px; font-size:14px; border-radius:6px; border:1px solid #ccc; margin-bottom:12px; width:100%; box-sizing:border-box; }
+    button { background:#768A96; color:white; border:none; cursor:pointer; padding:8px 12px; display:inline-block; width:auto; }
+    button:hover { background:#6a7b86; }
     ul { list-style:none; padding:0; }
     li { padding:10px; border-bottom:1px solid #eee; }
     .missing { color:#F3E4F5; }
@@ -30,7 +30,7 @@
   </div>
 
   <script>
-    // small sample so you can test quickly
+    // small test dataset so you can verify button works
     const recipes = [
       { name: "Tomatpasta", ingredients: ["tomat","pasta","olivenolie","hvidløg","salt"] },
       { name: "Ostomelet", ingredients: ["æg","mælk","ost","salt","peber"] },
@@ -47,7 +47,7 @@
         .toLowerCase()
         .split(',')
         .map(i => i.trim())
-        .filter(i => i);
+        .filter(Boolean);
 
       recipeList.innerHTML = '';
 
