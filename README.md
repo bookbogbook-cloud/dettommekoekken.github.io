@@ -130,7 +130,7 @@
       { name: "Is-kaffe light", ingredients: ["kaffe","is"] }
     ];
 
-    const ingredientsInput = document.getElementById("ingredients");
+    const ingredientsInput = document.getElementById("ingredienser");
     const recipeList = document.getElementById("recipeList");
     const findBtn = document.getElementById("findBtn");
 
