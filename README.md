@@ -68,12 +68,12 @@
   <div class="container">
     <h1>Det tomme køkken</h1>
 
-   <label for="ingredients">Enter ingredients you have (comma separated):</label>
+    <label for="ingredients">Enter ingredients you have (comma separated):</label>
     <input type="text" id="ingredients" placeholder="fx. æg, mælk, tomater, ost">
 
-  <button id="findBtn">Find Recipes</button>
+    <button id="findBtn">Find Recipes</button>
 
-   <h2>Matching Recipes:</h2>
+    <h2>Matching Recipes:</h2>
     <ul id="recipeList"></ul>
   </div>
 
@@ -139,7 +139,7 @@
         .toLowerCase()
         .split(",")
         .map(i => i.trim())
-        .filter(i => i !== "");
+        .filter(Boolean);
 
       recipeList.innerHTML = "";
 
@@ -161,7 +161,7 @@
         const li = document.createElement("li");
         li.className = "ready";
         li.innerHTML = `<strong>${r.name}</strong><br>
-            <em>Ingredienser:</em> ${r.ingredients.join(", ")}`;
+          <em>Ingredienser:</em> ${r.ingredients.join(", ")}`;
         recipeList.appendChild(li);
       });
     }
