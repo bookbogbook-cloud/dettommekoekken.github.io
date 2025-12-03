@@ -32,10 +32,11 @@
   <script>
     // small test dataset so you can verify button works
     const recipes = [
-      { name: "Tomatpasta", ingredients: ["tomat","pasta","olivenolie","hvidløg","salt"] },
-      { name: "Ostomelet", ingredients: ["æg","mælk","ost","salt","peber"] },
-      { name: "Pandekager", ingredients: ["mel","mælk","æg","sukker","smør"] 
-    ];
+  { name: "Tomatpasta", ingredients: ["tomat","pasta","olivenolie","hvidløg","salt"] },
+  { name: "Ostomelet", ingredients: ["æg","mælk","ost","salt","peber"] },
+  { name: "Pandekager", ingredients: ["mel","mælk","æg","sukker","smør"] }
+];
+
 
     // Hent elementer
     const ingredientsInput = document.getElementById('ingredients');
