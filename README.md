@@ -31,7 +31,8 @@
 
   <script>
     // small test dataset so you can verify button works
-  { name: "Bananpandekage", ingredients: ["banan","æg"] },
+    const recipes = [
+{ name: "Bananpandekage", ingredients: ["banan","æg"] },
 { name: "Nutella-toast", ingredients: ["nutella","brød"] },
 { name: "Avocado-mad", ingredients: ["avocado","brød"] },
 { name: "Yoghurt med honning", ingredients: ["yoghurt","honning"] },
