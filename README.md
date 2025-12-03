@@ -69,7 +69,7 @@
     <h1>Det tomme køkken</h1>
 
    <label for="ingredients">Indtast ingredienser du har (komma separeret):</label>
-    <input type="text" id="ingredienser" placeholder="fx. kiks, ost, banan, æg">
+    <input type="text" id="ingredients" placeholder="fx. kiks, ost, banan, æg">
 
   <button id="findBtn">Find Recipes</button>
 
@@ -130,7 +130,7 @@
       { name: "Is-kaffe light", ingredients: ["kaffe","is"] }
     ];
 
-    const ingredientsInput = document.getElementById("ingredienser");
+    const ingredientsInput = document.getElementById("ingredients");
     const recipeList = document.getElementById("recipeList");
     const findBtn = document.getElementById("findBtn");
 
