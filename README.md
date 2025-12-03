@@ -81,6 +81,8 @@
 { name: "Æblechips", ingredients: ["æble","sukker"] },
 { name: "Kiksekage hurtig", ingredients: ["kiks","chokolade"] },
 { name: "Is-kaffe light", ingredients: ["kaffe","is"] }
+];
+
 
 
 
