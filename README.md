@@ -68,8 +68,8 @@
   <div class="container">
     <h1>Det tomme køkken</h1>
 
-    <label for="ingredients">Enter ingredients you have (comma separated):</label>
-    <input type="text" id="ingredients" placeholder="fx. æg, mælk, tomater, ost">
+    <label for="ingredients">Indtast ingredienser du har (komma separeret):</label>
+    <input type="text" id="ingredienser" placeholder="fx. kiks, ost, banan, æg">
 
     <button id="findBtn">Find Recipes</button>
 
