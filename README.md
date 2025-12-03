@@ -34,8 +34,7 @@
     const recipes = [
       { name: "Tomatpasta", ingredients: ["tomat","pasta","olivenolie","hvidløg","salt"] },
       { name: "Ostomelet", ingredients: ["æg","mælk","ost","salt","peber"] },
-      { name: "Pandekager", ingredients: ["mel","mælk","æg","sukker","smør"] }
-      { name: "Omelet med revet ost og tomat", ingredients: ["æg","mælk","tomat","ost"] }
+      { name: "Pandekager", ingredients: ["mel","mælk","æg","sukker","smør"] 
     ];
 
     // Hent elementer
